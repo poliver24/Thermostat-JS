@@ -1,0 +1,155 @@
+ /* Button CSS */
+.button{
+background-color: #454545;
+border: none;
+color: white;
+padding: 5px 20px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 50px;
+}
+
+.reset-button {
+  background-color: #454545;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.reset-button-PSM {
+  background-color: #454545;
+  border: none;
+  color: #fcda33;
+  padding: 5px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+}
+
+.low-usage {
+  color: green;
+}
+
+.medium-usage {
+  color: black;
+}
+
+.high-usage {
+  color: red;
+}
+
+/* Split the screen in half */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+/* Control the left side */
+.left {
+  left: 0;
+  background-color: white;
+  font-family: 'Roboto', sans-serif;
+  color: #454545
+}
+
+/* Control the right side */
+.right {
+  right: 0;
+  background-color: #454545;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* If you want the content centered horizontally and vertically */
+.right_centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fcda33;
+}
+
+.right_centered h1 {
+  color: #fcda33
+}
+
+/* Style the image inside the centered container, if needed */
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.top {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.bottom {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+/* Select menu */
+.select-css {
+  font-size: 16px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 200%;
+  text-align: center;
+  text-align-last: center;
+  color: #454545;
+  border: 1px solid white;
+  /* padding: .5em 1em; */
+  -webkit-appearance: none;
+  background-color: white;
+  outline-color: white;
+}
+
+.select-css:focus {
+  border-color: white;
+  box-shadow: 0 0 1px 3px white;
+  box-shadow: 0 0 0 3px -moz-mac-focusring;
+  color: #222;
+  outline: none;
+}
+
+.select-css option {
+  font-weight: normal;
+  outline: none;
+}
+
+*:focus {
+  outline: none;
+}
+
+.current-img {
+  max-width: 25%;
+  height: auto;
+}
+
+.thermometer-img {
+  max-width: 8.5%;
+  height: auto;
+}
+
+.location-img {
+  max-width: 10%;
+  height: auto;
+}

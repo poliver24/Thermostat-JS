@@ -1,0 +1,25 @@
+{
+  "name": "thermostat",
+  "version": "1.0.0",
+  "description": "Patrick Oliver - thermostat project for Makers JS week.",
+  "main": "main.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/poliver24/Thermostat-JS.git"
+  },
+  "author": "Patrick Oliver",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/poliver24/Thermostat-JS/issues"
+  },
+  "homepage": "https://github.com/poliver24/Thermostat-JS#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

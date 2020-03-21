@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <script src="./src/thermostat.js"></script>
+  <script src="./js/jquery-3.4.1.min.js"></script>
+  <script src="interface.js"></script>
+  </head>
+  <body>
+    <div class="split left">
+      <div class="top">
+        <img class="current-img" src="img/CURRENT.png" />
+        <h2 style="font-weight:400;">CURRENT 
+          <br>
+          ℃ 
+          <br>
+        </h2>
+        <h1><span style="font-size: 200%; font-weight:700;" id="current-temperature"></span><h1>
+      </div>    
+
+      <div class="bottom">
+        <section>
+          <img class="location-img" src="img/LOCATION.png" />
+          <h2 style="font-weight:400;">LOCATION</h2>
+          <h1>
+            <select class="select-css" id="current-city">
+              <option value="london">LONDON</option>
+              <option value="paris">PARIS</option>
+              <option value="tokyo">TOKYO</option>
+            </select>
+          </h1>  
+        </section>
+      </div>
+    </div>
+  
+    <div class="split right">
+
+      <div class="right_centered">
+        <img class="thermometer-img" src="img/THERMOMETER.png" />
+        <h2 style="font-weight:400;">THERMOSTAT 
+          <br>
+          ℃ 
+        </h2>
+        
+        <h1>
+          <button class="button" id="temperature-up">+</button>
+          <span style="color:#fcda33; font-size: 200%; font-weight: 700;" id="temperature"></span>
+          <button class="button" id="temperature-down">-</button>
+          <br>
+          <button class="reset-button" id="temperature-reset">RESET</button>
+        </h1>
+        <br>
+        <br>
+
+        <button class="reset-button-PSM" id="powersaving-on">ON</button>
+        <span style="font-size: 150%; font-weight: 600;">ECO</span>
+        <button class="reset-button" id="powersaving-off">OFF</button>
+        
+      </div>  
+    </div>
+       <link rel="stylesheet" type="text/css" href="style.css">
+  </body>
+</html>
